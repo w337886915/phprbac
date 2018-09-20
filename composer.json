@@ -1,0 +1,27 @@
+{
+    "name": "w337886915/phprbac",
+    "description": "This is a whole process of PHP authority control management.",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "twbs/bootstrap": "^4.1",
+        "smarty/smarty": "^3.1",
+        "doctrine/orm": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wang heng",
+            "email": "wangheng19851019@126.com"
+        }
+    ],
+    "autoload": {
+
+        "psr-4": {
+
+            "phprbac\\" : "src"
+
+        }
+
+    }
+}
